@@ -52,15 +52,19 @@
             }
 
             else {
-                guessesLeft--;
 
-                if (guessesLeft === 0) {
+                if (guessesLeft <= 0) {
                     losses++;
+                    guessesLeft = 9;
+                    yourGuesses = [];
                 }
+                    else {
+                        guessesLeft--
+                    }
             }
 
             userGuess.textContent = "You chose: " + userGuess;
-            guessesLeft.textContent = "Your guesses thus far: " + userGuess;
+            guessesLeft.textContent = "Your guesses thus far: " + yourGuesses;
             computerGuess.textContent = "The computer chose: " + computerGuess;
             winsText.textContent = "wins: " + wins;
             lossesText.textContent = "losses: " + losses;
