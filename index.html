@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, intial-scale=1">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
+    <title>THE SPOOKY PYSCHIC GAME</title>
+
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+    <div id="game">
+        <h1>THE SPOOKY PSYCHIC</h1>
+        <p id="directionsText">Guess what letter I'm thinking of. I dare ya.</p>
+        <p id="yourGuesses">Your Guesses thus far: </p>
+        <p id="guessesLeftText">Guesses Left: </p>
+        <p id="winsText">Wins: </p>
+        <p id="lossesText">Losses:</p>
+    </div>
+
+    <script type="text/javascript">
+        // This variable creates an array of all of the choices of which the computer can choose. //
+        var computerChoices = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "x", "y", "z"];
+        
+        // This variable creates an array of all of the user submitted guesses. //
+        var yourGuesses = [];
+
+        var wins = 0;
+        var losses = 0;
+        var guessesLeft = 9;
+
+        var directionstext = document.getElementById("directionsText");
+        var yourGuesses = document.getElementById("yourGuesses")
+        var guessesLeft = document.getElementById("guessesleftText");
+        var winstext = document.getElementById("winsText");
+        var lossestext = document.getElementById("lossesText");
+
+
+        var computerGuess = computerChoices[Math.floor(Math.random() * computerChoices.length)]
+            console.log(computerGuess);
+
+        // Function is run whenever the user presses a key //
+        document.onkeyup = function (event) {
+
+            var userGuess = event.key;
+
+            if (userGuess === computerGuess) {
+                wins++;
+            }
+
+            else {
+                guessesLeft--;
+
+                if (guessesLeft === 0) {
+                    losses++;
+                }
+            }
+
+            userGuess.textContent = "You chose: " + userGuess;
+            guessesLeft.textContent = "Your guesses thus far: " + userGuess;
+            computerGuess.textContent = "The computer chose: " + computerGuess;
+            winsText.textContent = "wins: " + wins;
+            lossesText.textContent = "losses: " + losses;
+        }
+
+    </script>
+    <!--Here is my java script link. Do I need to remove all the above script then and place it in another file?-->
+    <!-- <script src="assets/javascript/game.js"></script> -->
+</body>
+
+</html>
