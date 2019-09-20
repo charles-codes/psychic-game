@@ -1,0 +1,20 @@
+body {
+    background-color: black;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {font-size: 24px;
+    color: orangered;
+    border: solid white 4px;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 20px;
+}
+
+p {font-size: 16px;
+    color: white;
+    padding: 10px;
+    border: solid orangered 3px;
+    border-radius: 25px;
+    margin: 20px;
+}
