@@ -1,9 +1,9 @@
 body {
     background-color: black;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Uncial Antiqua', cursive;
 }
 
-h1 {font-size: 24px;
+h1 {font-size: 28px;
     color: orangered;
     border: solid white 4px;
     border-radius: 25px;
@@ -11,7 +11,7 @@ h1 {font-size: 24px;
     margin: 20px;
 }
 
-p {font-size: 16px;
+p {font-size: 24px;
     color: white;
     padding: 10px;
     border: solid orangered 3px;
