@@ -29,13 +29,13 @@ var computerChoices = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l
             if (guessesLeft === 0) {
                 guessesLeft = 9;
                 losses++;
-                $("#yourGuesses").empty().text("Your Guesses thus far: ");
+                $("#yourGuesses").empty();
             }
 
-            guessesLeftText.textContent = "Guesses left: " + guessesLeft;
+            guessesLeftText.textContent = guessesLeft;
             $("#yourGuesses").append(userGuess);
-            winsText.textContent = "Wins: " + wins;
-            lossesText.textContent = "Losses: " + losses;
+            winsText.textContent = wins;
+            lossesText.textContent = losses;
 
         }
     }; 

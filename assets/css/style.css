@@ -20,6 +20,26 @@ p {font-size: 24px;
     margin: 20px;
 }
 
+#yourGuesses {
+    color: orangered;
+    font-size: 40px;
+}
+
+#winsText {
+    color: orangered;
+    font-size: 30px;
+}
+
+#lossesText {
+    color: orangered;
+    font-size: 30px;
+}
+
+#guessesLeftText {
+    color: orangered;
+    font-size: 30px;
+}
+
 #creator_tag {
     color: orangered;
     padding: 10px;
