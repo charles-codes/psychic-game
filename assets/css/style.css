@@ -40,6 +40,10 @@ p {font-size: 24px;
     font-size: 30px;
 }
 
+#directionsText {
+    color: white;
+}
+
 #creator_tag {
     color: orangered;
     padding: 10px;

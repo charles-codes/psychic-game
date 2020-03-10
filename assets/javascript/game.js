@@ -36,6 +36,5 @@ var computerChoices = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l
             $("#yourGuesses").append(userGuess);
             winsText.textContent = wins;
             lossesText.textContent = losses;
-
         }
     }; 
