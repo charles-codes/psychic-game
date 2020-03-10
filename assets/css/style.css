@@ -1,5 +1,6 @@
 body {
-    background-color: black;
+    background-image: url("../images/crystalball.jpg");
+    background-size: cover;
     font-family: 'Uncial Antiqua', cursive;
 }
 
@@ -17,4 +18,13 @@ p {font-size: 24px;
     border: solid orangered 3px;
     border-radius: 25px;
     margin: 20px;
+}
+
+#creator_tag {
+    color: orangered;
+    padding: 10px;
+    border: solid white 3px;
+    border-radius: 25px;
+    margin: 20px;
+    text-align: center;
 }

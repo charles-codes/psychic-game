@@ -33,8 +33,6 @@ var computerChoices = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l
             }
 
             guessesLeftText.textContent = "Guesses left: " + guessesLeft;
-            //yourGuesses.textContent = "Your guesses thus far: " + userGuess;
-            //console.log(yourGuesses);
             $("#yourGuesses").append(userGuess);
             winsText.textContent = "Wins: " + wins;
             lossesText.textContent = "Losses: " + losses;
