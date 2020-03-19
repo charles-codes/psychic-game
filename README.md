@@ -4,9 +4,7 @@
 
 DESCRIPTION:
 
-Here is a psychic game in which the player has 9 guesses to select the psychic's random letter. 
-
-The game tallies wins and losses.
+Spooky psychic game is a web app game in which the player has 9 guesses to select the computer psychic's random letter. The game tallies wins and losses.
 
 ================================================================================
 
