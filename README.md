@@ -24,7 +24,7 @@ Spooky Psychic Game utilizes HTML, CSS, JavaScript, and jQuery.
 
 SCREENCAPS:
 
-![Spooky Psychic Game](spookypscyhicgame.png)
+![Spooky Psychic Game](spookypsychicgame.png)
 
 ================================================================================
 
