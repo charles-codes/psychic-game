@@ -14,7 +14,7 @@ Start the game by simply selecting any letter with your keyboard.
 
 ================================================================================
 
-TECHSTACK:
+TECH STACK:
 
 Spooky Psychic Game utilizes HTML, CSS, JavaScript, and jQuery.
 
